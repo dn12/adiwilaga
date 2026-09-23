@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donny Adiwilaga — Lead Mobile Architect</title>
+<meta name="description" content="Lead Mobile Architect specialising in Kotlin Multiplatform. Fourteen years building Android and cross-platform applications for fintech, healthcare and enterprise clients.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FDFDFC;
+    --ink:#14181C;
+    --muted:#5C6672;
+    --rule:#E3E6E9;
+    --accent:#1A5E3A;
+    --mark:#FFF1BF;
+    --mark-ink:#6B4C00;
+    --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+    --sans:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#101316; --ink:#E9ECEF; --muted:#98A2AE;
+      --rule:#252B31; --accent:#6FCB96;
+      --mark:#3A3213; --mark-ink:#F2D98B;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--sans); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px; margin:0 auto; padding:72px 28px 96px}
+  @media (max-width:600px){ .wrap{padding:44px 22px 64px} }
+
+  h1{
+    font-family:var(--serif); font-weight:400;
+    font-size:clamp(46px,11vw,76px); line-height:.98;
+    letter-spacing:-.015em; margin:0 0 14px;
+  }
+  .role{font-size:17px; font-weight:500; margin:0 0 4px}
+  .where{font-size:15px; color:var(--muted); margin:0 0 22px}
+
+  .status{
+    display:inline-flex; align-items:baseline; gap:9px;
+    border:1px solid var(--rule); border-radius:999px;
+    padding:7px 15px; font-size:13.5px; color:var(--muted);
+    margin-bottom:34px;
+  }
+  .dot{
+    width:7px; height:7px; border-radius:50%;
+    background:var(--accent); flex:none; transform:translateY(-1px);
+  }
+  .status b{color:var(--ink); font-weight:500}
+
+  .bio{
+    font-family:var(--serif); font-size:22px; line-height:1.52;
+    margin:0 0 46px; letter-spacing:.002em;
+  }
+
+  h2{
+    font-family:var(--sans); font-size:15px; font-weight:600;
+    margin:0 0 18px; letter-spacing:0;
+  }
+  section{margin-bottom:46px}
+
+  .stack dt{
+    font-size:13.5px; color:var(--muted); margin-bottom:3px;
+  }
+  .stack dd{
+    margin:0 0 15px; font-size:15.5px; line-height:1.55;
+  }
+
+  .job{
+    border-top:1px solid var(--rule);
+    padding:17px 0 4px;
+  }
+  .job:last-of-type{border-bottom:1px solid var(--rule); padding-bottom:18px}
+  .jobhead{
+    display:flex; justify-content:space-between;
+    align-items:baseline; gap:18px; margin-bottom:5px;
+  }
+  .jobname{font-size:17px; font-weight:600}
+  .jobname a{color:var(--ink); text-decoration:none; border-bottom:1.5px solid var(--accent)}
+  .jobname a:hover{color:var(--accent)}
+  .scale{
+    font-size:13.5px; color:var(--muted); white-space:nowrap;
+    font-variant-numeric:tabular-nums;
+  }
+  .client{font-size:14px; color:var(--muted); margin:0 0 7px}
+  .did{font-size:15.5px; margin:0; max-width:60ch}
+
+  mark{
+    background:var(--mark); color:var(--mark-ink);
+    font-weight:500; padding:1px 5px; border-radius:3px;
+  }
+
+  .contact{
+    border-top:1px solid var(--rule); padding-top:22px;
+    font-size:15.5px; line-height:2;
+  }
+  .contact a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent}
+  .contact a:hover{border-bottom-color:var(--accent)}
+
+  a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Donny<br>Adiwilaga</h1>
+    <p class="role">Lead Mobile Architect — Kotlin Multiplatform</p>
+    <p class="where">Bogor, Indonesia (UTC+7)</p>
+    <p class="status">
+      <span class="dot" aria-hidden="true"></span>
+      <span><b>Open to full-time remote work</b> — contract or Employer of Record, full working-day overlap with European hours</span>
+    </p>
+  </header>
+
+  <p class="bio">
+    Fourteen years building Android and cross-platform mobile applications.
+    I currently lead Kotlin Multiplatform and Compose Multiplatform development at a
+    regulated crypto exchange. Before that I led a squad of ten engineers at a healthcare
+    platform, and built consumer Android apps for Honda Indonesia, XL Axiata and Bank BRI —
+    one of them with over a million downloads.
+  </p>
+
+  <section>
+    <h2>What I work with</h2>
+    <dl class="stack">
+      <dt>Languages and frameworks</dt>
+      <dd>Kotlin, Kotlin Multiplatform (KMP), Compose Multiplatform (CMP), Swift and SwiftUI, Java, Flutter</dd>
+      <dt>Architecture</dt>
+      <dd>Clean Architecture, MVVM, MVI, multi-module design</dd>
+      <dt>Leading</dt>
+      <dd>Squads of up to ten engineers, code review, architecture standards across concurrent projects</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Selected work</h2>
+
+    <div class="job">
+      <div class="jobhead">
+        <span class="jobname"><a href="https://play.google.com/store/apps/details?id=id.vonix.android">Samuel Kripto</a></span>
+        <span class="scale">2023 — now</span>
+      </div>
+      <p class="client">Regulated crypto exchange, Android and iOS</p>
+      <p class="did">Lead mobile architect. Migrated the UI layer from Android XML views and SwiftUI to Compose Multiplatform on a shared KMP codebase, and rebuilt the real-time market data feed on Server-Sent Events.</p>
+    </div>
+
+    <div class="job">
+      <div class="jobhead">
+        <span class="jobname"><a href="https://play.google.com/store/apps/details?id=id.co.xl.sisternet">Sisternet</a></span>
+        <span class="scale">500K+ downloads</span>
+      </div>
+      <p class="client">XL Axiata, Android</p>
+      <p class="did">Built and maintained the app in native Kotlin, from first release through successive feature cycles.</p>
+    </div>
+
+    <div class="job">
+      <div class="jobhead">
+        <span class="jobname"><a href="https://play.google.com/store/apps/details?id=id.co.bri.bricreditcard">BRI Credit Card Mobile</a></span>
+        <span class="scale">200K+ downloads</span>
+      </div>
+      <p class="client">Bank BRI, Android</p>
+      <p class="did">Built and maintained the credit card application for one of Indonesia's largest banks, across changing platform and security requirements.</p>
+    </div>
+
+    <div class="job">
+      <div class="jobhead">
+        <span class="jobname"><a href="https://play.google.com/store/apps/details?id=com.langit7.welovehonda">Welovehonda</a></span>
+        <span class="scale">1M+ downloads</span>
+      </div>
+      <p class="client">Honda Indonesia, Android</p>
+      <p class="did">Built and maintained the app in Java, keeping a million-download consumer product in production across successive Android platform changes.</p>
+    </div>
+
+  </section>
+
+  <section class="contact">
+    <a href="mailto:donny.adiwilaga@gmail.com">donny.adiwilaga@gmail.com</a><br>
+    <a href="https://www.linkedin.com/in/donnyadiwilaga/">linkedin.com/in/donnyadiwilaga</a>
+  </section>
+
+</div>
+</body>
+</html>
